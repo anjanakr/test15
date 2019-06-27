@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_test15.test1</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>test1</name>
+        <script><![CDATA[var test1 = Class.create();
+test1.prototype = {
+    initialize: function() {
+    },
+
+    type: 'test1'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-27 20:30:04</sys_created_on>
+        <sys_id>7470b765b7923300cf70e2b9de11a998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test1</sys_name>
+        <sys_package display_value="test15" source="sn_test15">cab62721b7923300cf70e2b9de11a950</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="test15">cab62721b7923300cf70e2b9de11a950</sys_scope>
+        <sys_update_name>sys_script_include_7470b765b7923300cf70e2b9de11a998</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-27 20:30:04</sys_updated_on>
+    </sys_script_include>
+</record_update>
